@@ -1,0 +1,31 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: app
+  namespace: ##namespace##
+  labels:
+    app: app
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        name: app
+    spec:
+      containers:
+        - name: app
+          image: ##image##
+          ports:
+            - containerPort: 80
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 5
+            timeoutSeconds: 1
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 5
+            timeoutSeconds: 1
