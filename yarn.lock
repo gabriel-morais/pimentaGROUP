@@ -33,7 +33,7 @@
   dependencies:
     tslib "^1.7.1"
 
-"@angular/cli@^1.6.4":
+"@angular/cli@^1.7.4":
   version "1.7.4"
   resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-1.7.4.tgz#b6c31b5fc6f8ea07e55b1b01a26422f5358a4ea6"
   dependencies:
@@ -159,6 +159,10 @@
   dependencies:
     tslib "^1.7.1"
 
+"@ng-bootstrap/ng-bootstrap@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@ng-bootstrap/ng-bootstrap/-/ng-bootstrap-2.0.0.tgz#65f78c7dd5a8ac424f44bb2050a9eab247cdeb0c"
+
 "@ngtools/json-schema@1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@ngtools/json-schema/-/json-schema-1.2.0.tgz#06e5ecd29e9a37d260a447dd873ea2becd228c4f"
@@ -193,6 +197,10 @@
     rxjs "^5.5.6"
     semver "^5.3.0"
     semver-intersect "^1.1.2"
+
+"@types/crypto-js@^3.1.41":
+  version "3.1.47"
+  resolved "https://registry.yarnpkg.com/@types/crypto-js/-/crypto-js-3.1.47.tgz#36e549dd3f1322742a3a738e7c113ebe48221860"
 
 "@types/jasmine@*", "@types/jasmine@~2.8.3":
   version "2.8.7"
@@ -318,6 +326,25 @@ amqplib@^0.5.2:
     buffer-more-ints "0.0.2"
     readable-stream "1.x >=1.1.9"
     safe-buffer "^5.0.1"
+
+angular-calendar@^0.24.1:
+  version "0.24.1"
+  resolved "https://registry.yarnpkg.com/angular-calendar/-/angular-calendar-0.24.1.tgz#f2abaea2514740a69a4d661543d9c131fece4e78"
+  dependencies:
+    angular-draggable-droppable "^2.0.0"
+    angular-resizable-element "^2.0.0"
+    calendar-utils "^0.1.2"
+    date-fns "^1.28.5"
+    positioning "^1.3.1"
+    tslib "^1.7.1"
+
+angular-draggable-droppable@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/angular-draggable-droppable/-/angular-draggable-droppable-2.0.0.tgz#6b3ca7a0ddf36c55c30cdebea9de0592de29d76f"
+
+angular-resizable-element@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/angular-resizable-element/-/angular-resizable-element-2.0.0.tgz#10a437cce317e459e07c3189519ef395e6b86130"
 
 angular2-useful-swiper@^5.0.1:
   version "5.0.1"
@@ -558,6 +585,13 @@ axios@^0.15.3:
   dependencies:
     follow-redirects "1.0.0"
 
+axios@^0.18.0:
+  version "0.18.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.18.1.tgz#ff3f0de2e7b5d180e757ad98000f1081b87bcea3"
+  dependencies:
+    follow-redirects "1.5.10"
+    is-buffer "^2.0.2"
+
 babel-code-frame@^6.22.0, babel-code-frame@^6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-code-frame/-/babel-code-frame-6.26.0.tgz#63fd43f7dc1e3bb7ce35947db8fe369a3f58c74b"
@@ -717,9 +751,9 @@ bluebird@^3.3.0, bluebird@^3.4.6, bluebird@^3.4.7, bluebird@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
 
-bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
-  version "4.11.8"
-  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
+bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.11.9:
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.12.0.tgz#775b3f278efbb9718eec7361f483fb36fbbfea88"
 
 body-parser@1.18.2, body-parser@^1.16.1:
   version "1.18.2"
@@ -824,7 +858,7 @@ braces@^2.3.0, braces@^2.3.1:
     split-string "^3.0.2"
     to-regex "^3.0.1"
 
-brorand@^1.0.1:
+brorand@^1.0.1, brorand@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/brorand/-/brorand-1.1.0.tgz#12c25efe40a45e3c323eb8675a0a0ce57b22371f"
 
@@ -975,6 +1009,10 @@ cache-loader@^1.2.0:
     mkdirp "^0.5.1"
     neo-async "^2.5.0"
     schema-utils "^0.4.2"
+
+calendar-utils@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/calendar-utils/-/calendar-utils-0.1.2.tgz#79642f1beb49dc0c8719e2b5d480f7730501d74a"
 
 callsite@1.0.0:
   version "1.0.0"
@@ -1253,7 +1291,7 @@ compressible@~2.0.13:
 
 compression@^1.5.2:
   version "1.7.2"
-  resolved "http://registry.npmjs.org/compression/-/compression-1.7.2.tgz#aaffbcd6aaf854b44ebb280353d5ad1651f59a69"
+  resolved "https://registry.npmjs.org/compression/-/compression-1.7.2.tgz#aaffbcd6aaf854b44ebb280353d5ad1651f59a69"
   dependencies:
     accepts "~1.3.4"
     bytes "3.0.0"
@@ -1462,6 +1500,10 @@ crypto-browserify@^3.11.0:
     randombytes "^2.0.0"
     randomfill "^1.0.3"
 
+crypto-js@^3.1.9-1:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-3.3.0.tgz#846dd1cce2f68aacfa156c8578f926a609b7976b"
+
 css-parse@1.7.x:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/css-parse/-/css-parse-1.7.0.tgz#321f6cf73782a6ff751111390fc05e2c657d8c9b"
@@ -1531,6 +1573,10 @@ data-uri-to-buffer@1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/data-uri-to-buffer/-/data-uri-to-buffer-1.2.0.tgz#77163ea9c20d8641b4707e8f18abdf9a78f34835"
 
+date-fns@^1.28.5:
+  version "1.30.1"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-1.30.1.tgz#2e71bf0b119153dbb4cc4e88d9ea5acfb50dc05c"
+
 date-format@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/date-format/-/date-format-1.2.0.tgz#615e828e233dd1ab9bb9ae0950e0ceccfa6ecad8"
@@ -1539,7 +1585,7 @@ date-now@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
 
-debug@*, debug@^3.1.0, debug@~3.1.0:
+debug@*, debug@=3.1.0, debug@^3.1.0, debug@~3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
   dependencies:
@@ -1810,16 +1856,16 @@ electron-to-chromium@^1.3.30:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.45.tgz#458ac1b1c5c760ce8811a16d2bfbd97ec30bafb8"
 
 elliptic@^6.0.0:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.4.0.tgz#cac9af8762c85836187003c8dfe193e5e2eae5df"
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.4.tgz#da37cebd31e79a1367e941b592ed1fbebd58abbb"
   dependencies:
-    bn.js "^4.4.0"
-    brorand "^1.0.1"
+    bn.js "^4.11.9"
+    brorand "^1.1.0"
     hash.js "^1.0.0"
-    hmac-drbg "^1.0.0"
-    inherits "^2.0.1"
-    minimalistic-assert "^1.0.0"
-    minimalistic-crypto-utils "^1.0.0"
+    hmac-drbg "^1.0.1"
+    inherits "^2.0.4"
+    minimalistic-assert "^1.0.1"
+    minimalistic-crypto-utils "^1.0.1"
 
 ember-cli-string-utils@^1.0.0:
   version "1.1.0"
@@ -2339,6 +2385,12 @@ follow-redirects@1.0.0:
   dependencies:
     debug "^2.2.0"
 
+follow-redirects@1.5.10:
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
+  dependencies:
+    debug "=3.1.0"
+
 follow-redirects@^1.0.0:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.4.1.tgz#d8120f4518190f55aac65bb6fc7b85fcd666d6aa"
@@ -2762,11 +2814,11 @@ hash-base@^3.0.0:
     safe-buffer "^5.0.1"
 
 hash.js@^1.0.0, hash.js@^1.0.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/hash.js/-/hash.js-1.1.3.tgz#340dedbe6290187151c1ea1d777a3448935df846"
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/hash.js/-/hash.js-1.1.7.tgz#0babca538e8d4ee4a0f8988d68866537a003cf42"
   dependencies:
     inherits "^2.0.3"
-    minimalistic-assert "^1.0.0"
+    minimalistic-assert "^1.0.1"
 
 hawk@~3.1.3:
   version "3.1.3"
@@ -2797,7 +2849,7 @@ hipchat-notifier@^1.1.0:
     lodash "^4.0.0"
     request "^2.0.0"
 
-hmac-drbg@^1.0.0:
+hmac-drbg@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
   dependencies:
@@ -3034,13 +3086,17 @@ inflight@^1.0.4:
     once "^1.3.0"
     wrappy "1"
 
-inherits@2, inherits@2.0.3, inherits@^2.0.1, inherits@^2.0.3, inherits@~2.0.0, inherits@~2.0.1, inherits@~2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
+inherits@2, inherits@^2.0.1, inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.0, inherits@~2.0.1, inherits@~2.0.3:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
 
 inherits@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.1.tgz#b17d08d326b4423e568eff719f91b0b1cbdf69f1"
+
+inherits@2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
 
 ini@^1.3.4, ini@~1.3.0:
   version "1.3.5"
@@ -3107,6 +3163,10 @@ is-binary-path@^1.0.0:
 is-buffer@^1.1.5:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
+
+is-buffer@^2.0.2:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-2.0.5.tgz#ebc252e400d22ff8d77fa09888821a24a658c191"
 
 is-builtin-module@^1.0.0:
   version "1.0.0"
@@ -3986,11 +4046,11 @@ mimic-fn@^1.0.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-1.2.0.tgz#820c86a39334640e99516928bd03fca88057d022"
 
-minimalistic-assert@^1.0.0:
+minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz#2e194de044626d4a10e7f7fbc00ce73e83e4d5c7"
 
-minimalistic-crypto-utils@^1.0.0, minimalistic-crypto-utils@^1.0.1:
+minimalistic-crypto-utils@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz#f6c00c1c0b082246e5c4d99dfb8c7c083b2b582a"
 
@@ -4656,6 +4716,10 @@ pascalcase@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/pascalcase/-/pascalcase-0.1.1.tgz#b363e55e8006ca6fe21784d2db22bd15d7917f14"
 
+password-hash@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/password-hash/-/password-hash-1.2.2.tgz#3b451f014de4b2e1ebfa0e5493b9517b1063af1d"
+
 path-browserify@0.0.0:
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/path-browserify/-/path-browserify-0.0.0.tgz#a0b870729aae214005b7d5032ec2cbbb0fb4451a"
@@ -4769,6 +4833,10 @@ portfinder@^1.0.9, portfinder@~1.0.12:
     async "^1.5.2"
     debug "^2.2.0"
     mkdirp "0.5.x"
+
+positioning@^1.3.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/positioning/-/positioning-1.5.1.tgz#73b90b621cd0a7e17b39fdcbc7f4567a95fcc8ce"
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
