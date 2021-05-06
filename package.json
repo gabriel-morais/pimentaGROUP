@@ -46,7 +46,7 @@
     "slick-carousel": "^1.8.1",
     "summernote": "^0.8.10",
     "swiper": "3.4.2",
-    "underscore": "^1.9.1",
+    "underscore": "^1.12.1",
     "velocity-animate": "^2.0.2",
     "zone.js": "^0.8.19"
   },
